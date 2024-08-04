@@ -142,6 +142,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-top: 2rem;
 }
 
 .card-header h2 {
