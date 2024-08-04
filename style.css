@@ -27,6 +27,7 @@ body {
   background-color: var(--very-dark-blue);
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -39,6 +40,7 @@ body {
   gap: 30px;
   max-width: 1110px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .profile {
@@ -190,14 +192,23 @@ body {
 }
 
 .attribution {
-  position: fixed;
-  bottom: 10px;
   font-size: 11px;
   text-align: center;
+  margin-top: auto;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .attribution a {
   color: var(--pale-blue);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-out;
+}
+
+.attribution a:hover {
+  color: var(--light-red-study);
 }
 
 @media (max-width: 1024px) {
