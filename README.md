@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links 🔗
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/css-custom-properties-flexbox-css-grid-vanilla-javascript-nz-1tAZB2C)
+- Live Site URL: [Time tracking dashboard](https://time-tracking-dashboard-seven-plum.vercel.app/)
 
 ## My process
 
