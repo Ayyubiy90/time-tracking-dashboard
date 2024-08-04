@@ -20,6 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
       updateDashboard(timeFrame);
       setActiveButton(btn);
     });
+
+    // Add click event listeners to the cards
+    activityCards.forEach((card) => {
+      card.addEventListener("click", () => {
+        const title = card.querySelector("h2").textContent;
+        const hours = card.querySelector(".hours").textContent;
+        const previous = card.querySelector(".previous").textContent;
+        console.log(`Clicked on ${title}: Current - ${hours}, ${previous}`);
+      });
+    });
   });
 
   function updateDashboard(timeFrame) {
